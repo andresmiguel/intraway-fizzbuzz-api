@@ -1,4 +1,4 @@
-package com.intraway.fizzbuzz;
+package com.intraway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
