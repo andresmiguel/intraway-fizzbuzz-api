@@ -11,3 +11,7 @@ docker-run: docker-package-builder
 
 run:
 	mvn spring-boot:run
+
+gcloud-push-image:
+	docker build -t gcr.io/intraway-exam/fizzbuzz .
+	gcloud docker -- push gcr.io/intraway-exam/fizzbuzz
